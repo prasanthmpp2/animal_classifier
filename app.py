@@ -9,7 +9,7 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # Load the Keras model (update the filename/path accordingly)
-model = tf.keras.models.load_model("E:/staff/Downloads/animal_classification_model.keras")
+model = tf.keras.models.load_model("animal_classification_model.keras")
 
 # Define the animal classes
 classes = ['elephant', 'cheeta', 'wild boar']
